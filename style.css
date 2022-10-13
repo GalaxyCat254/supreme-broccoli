@@ -1,0 +1,52 @@
+body {
+    background-image: url("sea.jpeg");
+    background-size: cover;
+}
+
+h1{
+    color:rgb(250, 252, 157);
+    background-color: rgb(202, 128, 43);
+}
+#sketch_name{
+    color:red
+}
+#show_sketch{
+    float:right;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 150px;
+    animation-iteration-count: infinite;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px white;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px gray;
+    }
+    to{
+        box-shadow: 1px 1px 38px white;
+    }
+}
+
+p,span{
+    padding-top: 10px;
+    font-size: 25px;
+    width: 200px;
+}
+
+#score{
+font-size: 50px;
+margin-left: 20px;
+}
+
+#timer {
+    font-size: 50px;
+    margin-right:20px;
+    float:right;
+}
